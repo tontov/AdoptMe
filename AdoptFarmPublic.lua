@@ -8402,26 +8402,6 @@ __moduleSources["Services/Interface"] = function(...)
         local devName = label(card, "Name", 84, 9, 420, 20, 16, Enum.Font.GothamBold)
         devName.Text = dev.name .. "  •  @" .. dev.user
         icon(card, "users", 84, 31, 14, Color3.fromRGB(190, 195, 255))
-        local server = label(card, "Server", 103, 30, 400, 16, 12, Enum.Font.GothamMedium, Color3.fromRGB(190, 195, 255))
-        server.Text = T("Join my Discord server")
-        local link = "https://discord.gg/" .. Interface.DISCORD_INVITE
-        local inviteText = "discord.gg/" .. Interface.DISCORD_INVITE .. "  •  " .. T("tap to copy")
-        local invite = Instance.new("TextButton")
-        invite.Name = "Invite"
-        invite.AutoButtonColor = false
-        invite.AutomaticSize = Enum.AutomaticSize.X
-        invite.Position = UDim2.fromOffset(84, 50)
-        invite.Size = UDim2.fromOffset(0, 20)
-        invite.BackgroundColor3 = C.blurple
-        invite.Font = Enum.Font.GothamBold
-        invite.TextSize = 12
-        invite.TextColor3 = Color3.new(1, 1, 1)
-        invite.Text = inviteText
-        local invitePad = Instance.new("UIPadding")
-        invitePad.PaddingLeft, invitePad.PaddingRight = UDim.new(0, 10), UDim.new(0, 10)
-        invitePad.Parent = invite
-        corner(invite, UDim.new(1, 0))
-        invite.Parent = card
         local hint = label(card, "Hint", B.width - 250, 9, 236, 58, 12, Enum.Font.GothamMedium, C.muted,
             Enum.TextXAlignment.Right)
         hint.TextWrapped = true
