@@ -6603,7 +6603,7 @@ __moduleSources["Services/Interface"] = function(...)
     local Interface = {}
     Interface.TITLE = "Adopt Victims"
     Interface.EDITION = "v3"
-    Interface.LIBRARY_URL = "https://raw.nebulasoftworks.xyz/starlight"
+    Interface.LIBRARY_URL = "https://raw.githubusercontent.com/tontov/AdoptMe/refs/heads/main/InterfaceLibrary.lua"
     Interface.DISCORD_INVITE = "7vvwEY37YX"
     Interface.DONATION_LINKS = {
         { name = "NOWPayments", icon = "wallet", link = "https://nowpayments.io/donation/victimoffate_" },
