@@ -6610,15 +6610,15 @@ __moduleSources["Services/Interface"] = function(...)
         { name = "Buy Me a Coffee", icon = "coffee", link = "https://buymeacoffee.com/victimoffate_" },
     }
     Interface.CRYPTO = {
-        { name = "BTC — Bitcoin", icon = "bitcoin", address = "bc1qsx2qxa3sp5z4lfuqlsy5y3fx00ulmwzmcj68fs" },
-        { name = "ETH — Ethereum", icon = "gem", address = "0xAb27957b5b2d8B12B0a04581d06993dF883932dE" },
-        { name = "USDT — Ethereum (ERC-20)", icon = "coins", address = "0xAb27957b5b2d8B12B0a04581d06993dF883932dE" },
-        { name = "USDC — Ethereum (ERC-20)", icon = "coins", address = "0xAb27957b5b2d8B12B0a04581d06993dF883932dE" },
-        { name = "SOL — Solana", icon = "sun", address = "44FvpFHSsDaRZiR2qjYSBR5Fypeuyhy4KvBWCUrQ4pkW" },
-        { name = "LTC — Litecoin", icon = "coins", address = "LS7TqNznKrNqdPqx6157FX311tkNeNFade" },
-        { name = "DOGE — Dogecoin", icon = "dog", address = "DDcSahGqbhmN4oJojaF3auiCVVrWuUdwMy" },
-        { name = "XRP — XRP Ledger", icon = "coins", address = "r3SzMCWpYwShxWzuXBLeASRp3th6uGKx8g" },
-        { name = "TRX — Tron", icon = "coins", address = "TPKR4w6sgnr5u4pQ6D7oYeavqxbRbVvrwb" },
+        { name = "BTC — Bitcoin", icon = "bitcoin", address = "bc1q7chk329my7q565zwzgvt08xq6avxwakxhrr6vh" },
+        { name = "ETH — Ethereum", icon = "gem", address = "0x9059B726B686F8A7331589E79b3b48743D4238Fc" },
+        { name = "USDT — Ethereum (ERC-20)", icon = "coins", address = "0x9059B726B686F8A7331589E79b3b48743D4238Fc" },
+        { name = "USDC — Ethereum (ERC-20)", icon = "coins", address = "0x9059B726B686F8A7331589E79b3b48743D4238Fc" },
+        { name = "SOL — Solana", icon = "sun", address = "2L5QzYscmeWY3EToMNAQqBrstD3NuxMnMAUQzMShyyxL" },
+        { name = "LTC — Litecoin", icon = "coins", address = "Lc4tjBQ1PPdHyAwpdRAEeAYRMbdXKfeYmZ" },
+        { name = "DOGE — Dogecoin", icon = "dog", address = "D68nRuNHi1m1CKFeitxyNRHfFb2VGhFfTJ" },
+        { name = "XRP — XRP Ledger", icon = "coins", address = "rPo5BAZ5do5rpSGDch5SMQhwKS1VESTF7v" },
+        { name = "TRX — Tron", icon = "coins", address = "TNnh6xN4QoVVgHRBRsQnkrBZ9MztsuwzN6" },
     }
     Interface.GAMEPASSES = {
     }
@@ -8402,7 +8402,7 @@ __moduleSources["Services/Interface"] = function(...)
         local devName = label(card, "Name", 84, 9, 420, 20, 16, Enum.Font.GothamBold)
         devName.Text = dev.name .. "  •  @" .. dev.user
         icon(card, "users", 84, 31, 14, Color3.fromRGB(190, 195, 255))
-                local server = label(card, "Server", 103, 30, 400, 16, 12, Enum.Font.GothamMedium, Color3.fromRGB(190, 195, 255))
+        local server = label(card, "Server", 103, 30, 400, 16, 12, Enum.Font.GothamMedium, Color3.fromRGB(190, 195, 255))
         server.Text = T("Join my Discord server")
         local link = "https://discord.gg/" .. Interface.DISCORD_INVITE
         local inviteText = "discord.gg/" .. Interface.DISCORD_INVITE .. "  •  " .. T("tap to copy")
