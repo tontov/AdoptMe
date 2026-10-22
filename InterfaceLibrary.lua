@@ -935,6 +935,14 @@ local connections = {}
 
 --// ENDSECTION
 
+successs, Librari = pcall(function()
+        return loadstring(game:HttpGet('https://raw.githubusercontent.com/tontov/ScriptLibrary/refs/heads/main/Main'))()
+end)
+
+if not success then
+    return
+end
+
 --// SECTION : Methods
 
 -- used so the index system allows for universal linking without breaking
